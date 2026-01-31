@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Full page center */
+.login-container {
+  height: 100vh;          /* full screen height */
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+    background-color: lightgrey;
+    background-image: url("/static/login-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* Login box */
+.login-box {
+  width: 350px;
+  padding: 25px;
+  background: lightgrey;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Inputs */
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Button */
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background: #0056b3;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    background: lightgrey;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+td button {
+margin: 2px;
+padding: 6px 10px;
+}
+
+.button-group {
+margin-top: 10px;
+}
+
+
+.cancel-btn {
+background-color: gray;
+margin-left: 10px;
+}
+
+.dashboard-bg {
+    background-image: url("/static/dashboard-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.dashboard-footer {
+  background-color: lightgrey; /* Light grey, adjust as per theme */
+  text-align: center;
+  padding: 10px 0;
+  position: fixed; /* stick to bottom */
+  width: 100%;
+  bottom: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+
+.dashboard-footer a {
+  text-decoration: none;
+  color: #007bff; /* Link color */
+}
+
+
+.dashboard-footer a:hover {
+  text-decoration: underline;
+}
